@@ -21,9 +21,3 @@ cc_library(
     ],
 )
 
-py_library(
-    name = "py_opencc",
-    deps = [
-        "//python/opencc",
-    ],
-)

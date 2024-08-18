@@ -78,19 +78,7 @@ xcode-build:
 	..; \
 	xcodebuild build)
 
-python-build:
-	echo "No need to build"
-
-python-install: python-build
-	python -m pip install .
-
-python-dist: python-build
-	python -m build
-
-python-test: python-build
-	cd python; pytest .
-
-test-all: test node-test python-test
+test-all: test node-test
 
 format:
 	find "src" "node" "test" -iname "*.hpp" -o -iname "*.cpp" -o -iname "*.cc" \

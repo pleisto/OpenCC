@@ -49,7 +49,7 @@ const getConfigPath = function (config) {
  */
 const OpenCC = module.exports = function (config) {
   if (!config) {
-    config = 's2t.json';
+    config = 's2tw.json';
   }
   config = getConfigPath(config);
   this.handler = new binding.Opencc(config);

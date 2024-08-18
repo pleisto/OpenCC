@@ -1,6 +1,6 @@
 {
-  "name": "opencc",
-  "version": "1.1.9",
+  "name": "@pleisto/opencc",
+  "version": "0.1.0",
   "description": "Conversion between Traditional and Simplified Chinese",
   "author": "Carbo Kuo <byvoid@byvoid.com>",
   "license": "Apache-2.0",
@@ -12,22 +12,22 @@
     "install": "node-pre-gyp install --fallback-to-build || node-pre-gyp rebuild"
   },
   "engines": {
-    "node": ">= 8.0.0"
+    "node": ">= 20.0.0"
   },
   "binary": {
     "module_name": "opencc",
     "module_path": "./build/Release/",
-    "host": "https://github.com/BYVoid/OpenCC/releases/download/",
+    "host": "https://github.com/pleisto/OpenCC/releases/download/",
     "remote_path": "{version}"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BYVoid/OpenCC.git"
+    "url": "git+https://github.com/pleisto/OpenCC.git"
   },
   "bugs": {
-    "url": "https://github.com/BYVoid/OpenCC/issues"
+    "url": "https://github.com/pleisto/OpenCC/issues"
   },
-  "homepage": "https://github.com/BYVoid/OpenCC#readme",
+  "homepage": "https://github.com/pleisto/OpenCC#readme",
   "keywords": [
     "opencc",
     "Chinese",
@@ -37,11 +37,15 @@
     "Traditional Chinese"
   ],
   "devDependencies": {
-    "mocha": "^9.2.1",
+    "mocha": "^10.7.3",
     "node-pre-gyp-github": "^2.0.0"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.11",
     "nan": "^2.20.0"
+  },
+  "packageManager": "yarn@4.4.0",
+  "volta": {
+    "node": "22.6.0"
   }
 }

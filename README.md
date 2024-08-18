@@ -7,6 +7,9 @@
 [![Python CI](https://github.com/BYVoid/OpenCC/actions/workflows/python.yml/badge.svg)](https://github.com/BYVoid/OpenCC/actions/workflows/python.yml)
 [![AppVeyor](https://img.shields.io/appveyor/ci/Carbo/OpenCC.svg)](https://ci.appveyor.com/project/Carbo/OpenCC)
 
+> Forked from [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC).
+> Optimized Node.js bindings.
+
 ## Introduction 介紹
 
 ![OpenCC](https://opencc.byvoid.com/img/opencc.png)
